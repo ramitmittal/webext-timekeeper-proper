@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.scss">
+</head>
+<body>
+  <h1 class="text-black" id="total-time">00 : 00 : 00</h1>
+  <h2 class="text-yellow" id="lap-time">00 : 00 : 00</h2>
+  <div id="lap-list"></div>
+  <div class="buttons" id="initial-buttons">
+    <button class="bg-yellow" id="btn-start">START</button>
+  </div>
+  <div class="buttons" id="running-buttons">
+    <button class="bg-pink" id="btn-stop">STOP</button>
+    <button class="bg-yellow" id="btn-lap">LAP</button>
+  </div>
+  <div class="buttons" id="stopped-buttons">
+    <button class="bg-pink" id="btn-resume">RESUME</button>
+    <button class="bg-black" id="btn-reset">RESET</button>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

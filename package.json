@@ -1,0 +1,21 @@
+{
+  "name": "webext-timekeeper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "dev": "./scripts/dev.sh",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "mocha": "^7.2.0",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.7",
+    "standard": "^14.3.4",
+    "web-ext": "^4.2.0",
+    "webextension-polyfill": "^0.6.0"
+  },
+  "browserslist": "> 0.25%, not dead"
+}
