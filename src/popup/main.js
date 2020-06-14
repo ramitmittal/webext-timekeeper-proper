@@ -18,7 +18,7 @@ const lapTimeDisplay = document.querySelector('#lap-time')
 
 function formatTime (time, separator = ' : ') {
   const hours = Math.floor(time / 3600)
-  const minutes = Math.floor(time / 60)
+  const minutes = Math.floor((time % 3600) / 60)
   const seconds = Math.floor(time % 60)
   const paddedTimeElements = [hours, minutes, seconds]
     .map(x => String(x).padStart(2, 0))
